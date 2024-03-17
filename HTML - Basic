@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Page - naked</title>
+</head>
+<body>
+<h1 style="text-align: center;">Hi, I'm an HTML naked Page...</h1>
+    <p style="font-size: 20px">...with some Content - and some basics. Yeehaw!</p><br>
+<h2 style="text-align: right; margin-right: 10px;">Hehe I'm H2, chillin in the right of the page</h2><br>
+<p><strong>Hi,</strong> Im <b>the</b> <i>second</i> paragraph. <em>HEHE.</em> <small>Im</small> <big>just</big> here for some <mark>textstyles like this mark</mark> <del>or big and small text.</del>
+    <ins> Well,</ins> technically <sub>these</sub> are Tags. <sup>Lovely</sup> Dudes!</p><br>
+    <p>You can search for more information <a href = "https://www.google.com/">here</a>.</p>
+<h3>Anyway, do you know me?</h3>
+<p align = center>check this funny pic of me:</p>
+<img src="meinBild.JPG" alt="me with masc" height="300" width="300" border="5" align=right>
+<p>so what about lists?<br>
+<ul>
+    <li>there</li>
+    <li>is</li>
+    <li>a lot</li> 
+    <li>of data</li>
+    <li>outside!</li>
+</ul>
+<ol>
+    <li>like</li>
+    <li>for real!</li>
+</ol>
+</p><br>
+<p>Now lists are okay, like for shopping. But in a world, full of data we need tables.<br> Lets take a look! I use some information of myslf:</p>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Larissa</td>
+        <td>24 y/old</td>
+        <td>Germany</td>
+    </tr>
+</table>
+<p>There are a lot of examples how you can do tables - don't forget its all about html in here. Lets check some forms. They are fundamental!</p>
+<form>
+    <label for = "name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for = "email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for = "message">Message:</label>
+    <textarea type="message" id="message" name="message" required></textarea>
+    <input type="submit" value="Submit">
+</form>
+<p>Normally, the user submits a form, the data is typocally sent to a server for processing. It could look like "form action ="submit.php" method="post", but this is just one example.</p><br>
+<p>there are more input types. Lets checkout some:</p><br>
+<p><input type="checkbox" id="checkbox" name="checkbox" required>Im a checkbox Input</p>
+<p><input type="password" id="password" name="password" required> Im a password Input</p>
+<p><input type="radio" id="radio" name="radio" required> Im a radio Input</p>
+<p><input type="color" id="color" name="color" required> Im a color Input</p>
+<p><input type="date" id="date" name="date" required> Im a date Input</p>
+<p><input type="tel" id="tel" name="tel" required> Im a tel Input</p>
+<p><input type="hidden" id="hidden" name="hidden" required> Im an hidden Input</p>
+<p><input type="range" id="range" name="range" required> Im a range Input</p>
+<p><input type="month" id="month" name="month" required> Im a month Input</p>
+</body>
+</html>
